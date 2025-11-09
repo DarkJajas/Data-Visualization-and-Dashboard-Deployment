@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Admisiones, Retención y Satisfacción",layout="wide",page_icon="📊")
+st.set_page_config(page_title="Admisiones, Retención y Satisfacción (Juan Caro, Juan Perez y Edy Corro)",layout="wide",page_icon="📊")
 
 @st.cache_data
 def load_data(csv_path: str):
